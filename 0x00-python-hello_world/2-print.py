@@ -1,2 +1,3 @@
-#!/bin/bash
-python3 -u print("Programming is like building a multilingual puzzle")
+#!/usr/bin/python3
+string = "\'Programming is like building a multilingual puzzle"
+print(string)
