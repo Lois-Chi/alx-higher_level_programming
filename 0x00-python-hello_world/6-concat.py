@@ -2,4 +2,4 @@
 str1 = "Holberton"
 str2 = "School"
 str3 = "Holberton School"
-print(f"Welcome to {str3}!")
+print(f"Welcome to {str3}!\n")
