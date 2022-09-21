@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-returned_value = string.ascii_lowercase
-print(returned_value)
+print("".format()
+    .join([chr(i) for i in range(ord('a'), ord('z') + 1)]), end="")
