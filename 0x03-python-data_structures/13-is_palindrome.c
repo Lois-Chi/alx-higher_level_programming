@@ -2,7 +2,7 @@
 /*
  * is_palindrome - check if a singly linked list is a palindrome
  * @head: double pointer to head of list
- * Return: 1 or 0
+ * Return: 0 or 1 based on conditions
  */
 int is_palindrome(listint_t **head)
 {
@@ -32,6 +32,12 @@ int is_palindrome(listint_t **head)
 		prev->next = list_2;
 	return (ret);
 }
+/**
+ * cmp - compares integers in the linked list
+ * @h1: head of the first half
+ * @h2: head of the second half
+ * Return: 0 or 1 based on conditions
+ */
 int cmp(listint_t *h1, listint_t *h2)
 {
 	listint_t *tmp1 = h1, *tmp2 = h2;
