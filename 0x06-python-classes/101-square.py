@@ -1,8 +1,16 @@
 #!/usr/bin/python3
+"""A class square"""
+
+
 class Square():
     """A square class."""
+
     def __init__(self, size=0, position=(0, 0)):
-        """Initialization of the class square."""
+        """Initialization of the class square.
+         Args:
+            size (int): The size of the new square.
+            position (int, int): The position of the new square.
+        """
         self.size = size
         self.position = position
 
