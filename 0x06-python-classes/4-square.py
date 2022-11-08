@@ -1,13 +1,17 @@
 #!/usr/bin/python3
-class Square():
-    """A square class."""
-    def __init__(self, size=0):
-        """Initialization of the class square."""
-        self.__size = size
 
-    def area(self):
-        """The area of the Square"""
-        return self.__size ** 2
+    """A square class."""
+
+
+class Square:
+    """ Representation of a square"""
+
+    def __init__(self, size=0):
+        """Initialization of the class square.
+        Args:
+           size (int): The size of the new square.
+        """
+        self.__size = size
 
     @property
     def size(self):
@@ -22,3 +26,7 @@ class Square():
         if SizeValue < 0:
             raise ValueError("size must be >= 0")
         self.__size = SizeValue
+
+     def area(self):
+        """Return the current area of the square."""
+        return (self.__size * self.__size)
