@@ -1,8 +1,15 @@
 #!/usr/bin/python3
+""" A class square."""
+
+
 class Square():
-    """A square class."""
+    """Representation of a class square."""
+
     def __init__(self, size=0):
-        """Initialization of the class square."""
+        """Initialization of the class square.
+        Args:
+            size (int): The size of the new square.
+        """
         self.__size = size
 
     def area(self):
