@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-class Square():
+
 """A square class."""
 
+
+class Square:
+    """ Representation of a square"""
 
     def __init__(self, size=0):
         """Initialization of the class square.
