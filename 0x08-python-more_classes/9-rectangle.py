@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-
 """A rectangle class."""
 
 
 class Rectangle:
-    """Class of a Rectangle
-     Attributes:
+    """Representation of a Rectangle.
+
+    Attributes:
         number_of_instances (int): The number of Rectangle instances.
         print_symbol (any): The symbol used for string representation.
     """
@@ -14,8 +14,8 @@ class Rectangle:
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
-        """Initialize class
-         Args:
+        """Initialization of a rectangle class
+        Args:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
