@@ -3,5 +3,5 @@
 
 
 class Square:
-        """Initialization of the class square."""
-        pass
+    """Initialization of the class square."""
+    pass
