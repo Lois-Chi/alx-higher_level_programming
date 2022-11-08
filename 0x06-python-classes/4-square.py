@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
     """A square class."""
 
 
@@ -11,19 +10,19 @@ class Square:
         Args:
            size (int): The size of the new square.
         """
-        self.__size = size
+        self.size = size
 
     @property
     def size(self):
         """The size of the Square"""
-        return self.__size
+        return (self.__size)
 
     @size.setter
     def size(self, SizeValue):
         """set size of the Square"""
         if type(SizeValue) != int:
             raise TypeError("size must be an integer")
-        if SizeValue < 0:
+        elif SizeValue < 0:
             raise ValueError("size must be >= 0")
         self.__size = SizeValue
 
