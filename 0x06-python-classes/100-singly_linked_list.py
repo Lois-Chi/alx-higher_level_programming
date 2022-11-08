@@ -1,9 +1,16 @@
 #!/usr/bin/python3
+""" A new class square"""
+
+
 class Node():
     """Node Class."""
 
     def __init__(self, data, next_node=None):
-        """Initialization of Node Class"""
+        """Initialization of Node Class.
+        Args:
+            data (int): The data of the new Node.
+            next_node (Node): The next node of the new Node.
+        """
         self.data = data
         self.next_node = next_node
 
@@ -35,11 +42,16 @@ class Node():
 class SinglyLinkedList():
     """Class SinglyLinkedList"""
     def __init__(self):
-        """Initialization of SinglyLinkedList"""
+        """Initialization of SinglyLinkedList."""
         self.__head = None
 
     def sorted_insert(self, DataValue):
-        """Inserts a nodes"""
+        """Inserts a nodes
+        The node is inserted into the list at the correct
+        ordered numerical position.
+        Args:
+            value (Node): The new Node to insert.
+        """
         NewNode = Node(DataValue)
         if self.__head is None:
             self.__head = NewNode
